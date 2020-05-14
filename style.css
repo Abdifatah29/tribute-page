@@ -1,12 +1,17 @@
-*{
-    box-sizing: border-box;
-}
-body{
-margin-top: 5px; 
-font-family: Rockwell;
-font-size: 14px;
-line-height: 1.42857143;
-background-color: beige;
+body {
+    margin-top: 5px;
+margin-top: 5px;
+    margin-top: 5px;
+margin-top: 5px;
+    margin-top: 5px;
+margin-top: 5px;
+    margin-top: 5px;
+margin-top: 5px;
+    margin-top: 5px;
+    font-family: Rockwell;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-color: beige;
 }
 #title{
     font-size: 75px;
@@ -26,43 +31,57 @@ background-color: beige;
     /* font-style: italic; */
     font-size: 18px;
     padding-bottom: 9px;
-    font-family: font-family: 'Dancing Script', cursive;
+    font-family:'Dancing Script', cursive;
 }
 .said-by-thabo{
     padding-top: 5px;
 }
-.tribute-img{
-    display: block;
-    max-width: 100%;
-    height: auto;
-    padding: 20px 40px 20px 40px;
-    display: flex;
-    margin-left: 250px;
 
+@media (max-width: 460px) {
+    #main {
+        margin: 0;
+    }
 }
-#thumbnail{
-    padding: 10px;
-    margin-left: 40px;
+
+#image {
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
     text-align: center;
+    /* font-style: italic; */
+    font-size: 18px;
+    padding-bottom: 9px;
+    font-family: font-family: 'Dancing Script', cursive;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption {
+    /*   margin: 15px 0 5px 0; */
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+#img-div {
     border: 1px solid lightgray;
     margin-bottom: 32px;
 }
 
-h2{
-    margin-left: 40px;
+#tribute-info {
+    text-align: center;
 }
-ul {
-    display: block;
-    list-style-type: inherit;
-    text-decoration: none;
-    margin-left: 40px;
 
+h2 {
+    margin-left: 40px;
 }
-li{
-    display: list-item;
-    margin-right: 70px;
-}
-#read-more-btn{
+
+#read-more-btn {
     margin-left: 70px;
     color: tomato;
     font-size: 17px;
@@ -70,20 +89,46 @@ li{
     background-color: inherit;
 }
 
-#read-more-btn:active, #read-more-btn:focus{
+#read-more-btn:active,
+#read-more-btn:focus {
     border: none;
     outline: none;
 }
-.hidden-content{
+
+.hidden-content {
     display: none;
 }
-.more-info{
+
+.more-info {
     font-size: 18px;
     text-align: center;
     color: tomato;
     padding-top: 20px;
 }
-#main-footer{
+
+#main-footer {
     text-align: center;
     font-size: 14px;
+}
+
+@media (max-width: 460px) {
+    #img-caption {
+        font-size: 1.4rem;
+    }
+}
+
+#headline {
+    margin: 50px 0;
+    text-align: center;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+li {
+    margin: 16px 0;
 }
