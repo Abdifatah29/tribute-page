@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Tribute page:Thabo Mbeki</title>
+            <link rel="stylesheet" href="style.css">
+            <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+
+            <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Handlee&display=swap" rel="stylesheet">
+        </head>
+        <body>
+            <header></header>
+            <main id="main">
+                <h1 id="title">Thabo Mbeki</h1>
+                <h2 class="tribute-quote">
+                   <q> <i>None dare challenge me when i say i am an African.</i></q>
+                </h2>
+                <div id="thumbnail">
+                <img src="thabo-mbeki.jpg" alt="" title="a printed photo of tribute" class="tribute-img">
+                </div>
+                <div class="img-quote">
+                    <q><caption>The problem is not a lack of understanding of what we are saying and doing; the problem is difference of opinion about what to do.</caption></q> </br>
+                    <footer class="said-by-thabo">
+                        <cite>Said by Thabo Mbeki</cite>
+                    </footer>
+                </div>   
+                <div class="timeline">
+                    <h2>Short Biography of Thabo Mbeki:</h2>
+                    <!-- Visible Content about Thabo Mbeki -->
+                    <ul>
+                        <li><strong>1942 18 June </strong> Born and raised in Mbewuleni, Cape Province</li>
+                        <li><strong>1956</strong>
+                            Thabo Mbeki Joins the African National Congress Youth League (ANCYL) at the age of 14.</li>
+                        <li><strong> 1958</strong>
+                            At the age 16 Thabo Mbeki has a baby boy out of wedlock with Olive Mpahlwa named Monwabise Kwanda.</li>
+                        <li><strong>1961</strong>
+                            Thabo Mbeki completes his British "A" level examinations in England.</li>
+                        <li><strong>1961</strong>
+                            Thabo Mbeki meets Nelson Mandela in Mayfair, Johannesburg</li>
+                        <li><strong>1966</strong>
+                            Thabo Mbeki completes a Masters Degree in Economics at Sussex University in England.</li>
+                        <li><strong>1969</strong>
+                            Thabo Mbeki arrives in Moscow and attends at the Institute of Social science.</li>
+                        <li><strong> 1975</strong>Thabo Mbeki is appointed acting Chief representative of the ANC in Swaziland.</li>
+                        <li><strong>1984</strong>
+                            Thabo Mbeki is appointed head of the ANC's Department of Information and Publicity.</li>
+                    </ul>
+                    <!-- End of visble content -->
+                </div>
+                <div>
+                    <!-- The Hidden content about Thabo Mbeki-->
+                    <ul class="hidden-content" id="hidden-content">
+                        <li><strong>1990</strong>
+                            Thabo Mbeki persuades the ANC to give up the armed struggle against the apartheid regime. </li>
+                        <li><strong>1997</strong>
+                            Thabo Mbeki leads an African National Congress delegation to the Truth and Reconciliation Commission (TRC) </li>
+                        <li><strong>1999</strong>14 June Thabo Mbeki is elected president of South Africa. </li>
+                        <li><strong>2002</strong>17 December, Thabo Mbeki is re-elected President of the African National Congress. </li>
+                        <li><strong>2008</strong> 21 September, Thabo Mbeki steps down as president of the South Africa and addresses the nation. </li>
+                        <li><strong>2010</strong> October, The Thabo Mbeki African Leadership Institute (TMALI) is launched at the Sandton Convention Centre in Johannesburg. </li>
+                       
+                    </ul>
+                    <!-- The button that shows the hidden content -->
+                    <button id="read-more-btn" type="button" onclick="toggleReadMoreBtn()">Read More...</button>
+                </div>
+                <p class="more-info">you can read more about Tribute on <a href="https://en.wikipedia.org/wiki/Thabo_Mbeki" target="_blank">Wikipedia</a>. </p>
+            </main>
+        </body>
+        <footer id="main-footer">
+            <P>Coded by  <a href="#">Abdifatah Hassan</a></P>
+        </footer>
+        <script>
+            // displays hidden content when button is clicked
+            function toggleReadMoreBtn() {
+                var content = document.getElementById("hidden-content");
+                if (content.style.display === "none") {
+                    content.style.display = "block";
+                    document.getElementById("read-more-btn").innerHTML = "Read less";
+                } else {
+                    content.style.display = "none";
+                    document.getElementById("read-more-btn").innerHTML = "Read More...";
+                }
+            }
+        </script>
+        
+    </html>

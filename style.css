@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+body{
+margin-top: 5px; 
+font-family: Rockwell;
+font-size: 14px;
+line-height: 1.42857143;
+background-color: beige;
+}
+#title{
+    font-size: 75px;
+    text-align: center;
+    margin: 0;
+}
+.tribute-quote{
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Handlee', cursive;
+}
+.img-quote{
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    text-align: center;
+    /* font-style: italic; */
+    font-size: 18px;
+    padding-bottom: 9px;
+    font-family: font-family: 'Dancing Script', cursive;
+}
+.said-by-thabo{
+    padding-top: 5px;
+}
+.tribute-img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    margin-left: 250px;
+
+}
+#thumbnail{
+    padding: 10px;
+    margin-left: 40px;
+    text-align: center;
+    border: 1px solid lightgray;
+    margin-bottom: 32px;
+}
+
+h2{
+    margin-left: 40px;
+}
+ul {
+    display: block;
+    list-style-type: inherit;
+    text-decoration: none;
+    margin-left: 40px;
+
+}
+li{
+    display: list-item;
+    margin-right: 70px;
+}
+#read-more-btn{
+    margin-left: 70px;
+    color: tomato;
+    font-size: 17px;
+    border: none;
+    background-color: inherit;
+}
+
+#read-more-btn:active, #read-more-btn:focus{
+    border: none;
+    outline: none;
+}
+.hidden-content{
+    display: none;
+}
+.more-info{
+    font-size: 18px;
+    text-align: center;
+    color: tomato;
+    padding-top: 20px;
+}
+#main-footer{
+    text-align: center;
+    font-size: 14px;
+}
